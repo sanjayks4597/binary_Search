@@ -99,7 +99,7 @@ public class BinarySearch1 {
 		}
 		else
 		{
-			if(mid == 0 || arr[mid] != arr[mid+1])
+			if(mid == arr.length-1 || arr[mid] != arr[mid+1])
 			{
 				return mid;
 			}
